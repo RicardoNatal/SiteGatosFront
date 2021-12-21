@@ -1,0 +1,13 @@
+<form>
+    <br />
+    <input type="text" placeholder="Nome" [(ngModel)]="gatoClass.nome" name="nome"/><br />
+    <input type="text" placeholder="Cor" [(ngModel)]="gatoClass.cor"  name="cor"/><br/>
+    <input type="text" placeholder="Coisa Favorita" [(ngModel)]="gatoClass.coisaFavorita" name="Coisa Favorita"/><br/>
+    <input type="text" placeholder="Raça" [(ngModel)]="gatoClass.raca" name="raca"/><br />
+    <input type="text" placeholder="E-mail" [(ngModel)]="gatoClass.email" name="email"/><br />
+    <input type="text" placeholder="Descrição" [(ngModel)]="gatoClass.descricao" name="descricao"/><br />
+    <input type="text" placeholder="URL da foto" [(ngModel)]="gatoClass.fotoUrl" name="fotoUrl"/><br />
+    <br/>
+    <button (click)="addGato()">Enviar</button>
+  </form>
+  <hr>
